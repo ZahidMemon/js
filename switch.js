@@ -4,31 +4,31 @@ let day;
 let date = new Date().getDay();
 switch(date){
     case 0:
-        day = "Sunday";
+        day = "Red";
         break;
     
     case 1:
-        day = "Monday";
+        day = "Yellow";
         break;
 
     case 2:
-        day = "Tuesday";
+        day = "Blue";
         break;
 
     case 3:
-        day = "Wednesday";
+        day = "Black";
         break;
 
     case 4:
-        day = "Thursday";
+        day = "White";
         break;
 
     case 5:
-        day = "Friday";
+        day = "Green";
         break;
 
     case 6:
-        day = "Saturday";
+        day = "Grey";
 }
 
 console.log(day);
