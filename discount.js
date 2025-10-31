@@ -3,8 +3,7 @@ function fun1(){
     let p = document.getElementById("price").value;
     let total;
 
-    total=(m=="yes") ? p = p - (p*0.20) : p;
-    console.log(total);
+    total=(m=="yes") ? p = p - (p*0.10) : p;
 
     document.getElementById("result").innerHTML=total;
 
