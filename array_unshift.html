@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>JavaScript Arrays</h1>
+    <h2>Array unshift() method</h2>
+
+    <p>The unshift() method adds new element at the bigning of an array and unshift other elements as per the index
+        number
+    </p><br>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
+    <script>
+
+        const fruits = ["pineapple", "banana", "apple", "papaya"];
+        document.getElementById("demo1").innerHTML = fruits;
+
+        fruits.unshift("mango");
+        document.getElementById("demo2").innerHTML = fruits;
+
+
+    </script>
+</body>
+
+</html>
