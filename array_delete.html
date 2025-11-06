@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>JavaScript Arrays</h1>
+    <h2>Array delete() method</h2>
+    <p>The delete() array</p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
+    <script>
+
+        const fruits = ["pineapple", "banana", "apple", "papaya"];
+        document.getElementById("demo1").innerHTML = fruits[0]; // dropping one fruits
+        delete fruits[0];
+        document.getElementById("demo2").innerHTML = fruits;
+    </script>
+
+</body>
+
+</html>
