@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JavaScript Arrays</h1>
+    <h2>Array flat() method</h2>
+    <p id="demo"></p><br>
+    <hr>
+    <p id="demo2"></p>
+
+    <script>
+        const myArray = [[1, 2], [3, 4], [5, 6]];
+        const myArray1 = [[1, 2], [3, 4], [5, 6], [7, 25, 6], [125, 256, 107], [999, 888, 111]];
+        const newArray = myArray.flat();
+        const newArray1 = myArray1.flat();
+
+        document.getElementById("demo").innerHTML = newArray;
+        document.getElementById("demo2").innerHTML = newArray1;
+    </script>
+
+</body>
+
+</html>

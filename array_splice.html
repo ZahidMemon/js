@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JavaScript Arrays</h1>
+    <h2>Array splice() method</h2>
+    <p>The Splice method adds a new element to an array</p>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+
+    <script>
+        const fruits = ["pineapple", "banana", "apple", "mango"];
+        document.getElementById("demo").innerHTML = fruits;
+
+        fruits.splice(2, 0, "lemon", "kiwi");
+        document.getElementById("demo2").innerHTML = fruits;
+
+
+    </script>
+
+</body>
+
+</html>
